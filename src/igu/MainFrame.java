@@ -12,7 +12,7 @@ public class MainFrame extends JFrame implements ActionListener {
 
     public MainFrame() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(800, 800);
+        setSize(400, 400);
         setTitle("HOTEL");
         setLocationRelativeTo(null);
         initMenu();
@@ -21,9 +21,9 @@ public class MainFrame extends JFrame implements ActionListener {
     void initMenu() {
         // menu
         JMenuBar mb = new JMenuBar();
-        JMenu m1 = new JMenu("archivo");
+        JMenu m1 = new JMenu("cliente");
 
-        m11 = new JMenuItem("nuevo archivo");
+        m11 = new JMenuItem("cliente nuevo ");
         m11.addActionListener(this);
         m1.add(m11);
         m19 = new JMenuItem("salir");

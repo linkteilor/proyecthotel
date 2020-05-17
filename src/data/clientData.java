@@ -6,10 +6,10 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class clientData {
-    List<client> lis=new CopyOnWriteArrayList<client>();
-    int id;
+    static List<client> lis=new CopyOnWriteArrayList<client>();
+    static int id=0;
     public clientData(){
-        id=0;
+        
     }
 
     public List<client> List() {

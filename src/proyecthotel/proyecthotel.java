@@ -10,7 +10,7 @@ public class proyecthotel {
     public static void main(final String[] args) {
         final Scanner imput = new Scanner(System.in);
         int opt = 0;
-        final clientData cData = new clientData();
+        clientData cData = new clientData();
         do {
             System.out.println("***** HOTEL *****");
             System.out.println(" 1 lista");
@@ -25,7 +25,7 @@ public class proyecthotel {
                 case 1:
                     System.out.println(" ***** 1 list ***** ");
                     final List<client> lis = cData.List();
-                    System.out.println("ID \tnombre \t DNI \t nacionalidad \t sex");
+                    System.out.println("ID \t nombre \t DNI \t nacionalidad \t sex");
                     for (final client d : lis) {
                         System.out.println(d.getId() + "\t" + d.getnombre() + "\t" + d.getDNI() + "\t"
                                 + d.getnacionalidad() + "\t" + d.getsex());

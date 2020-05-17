@@ -12,7 +12,7 @@ public class client {
     public int getId() {
       return id;
     }
-    public void setId(final int id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -28,7 +28,7 @@ public class client {
         return DNI;
     }
 
-    public void setDNI( int DNI) {
+    public void setDNI(int DNI) {
         this.DNI = DNI;
     }
 
