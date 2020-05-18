@@ -4,7 +4,7 @@ package entities;
 
 public class client {
     int id;
-    int DNI;
+    String DNI;
     String nombre;
     String nacionalidad;
     String sex;
@@ -24,11 +24,11 @@ public class client {
         this.nombre = nombre;
     }
 
-    public int getDNI() {
+    public String getDNI() {
         return DNI;
     }
 
-    public void setDNI(int DNI) {
+    public void setDNI(String DNI) {
         this.DNI = DNI;
     }
 

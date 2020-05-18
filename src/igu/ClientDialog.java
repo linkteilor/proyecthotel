@@ -91,7 +91,7 @@ public class ClientDialog extends JDialog {
         System.out.println(" addButton has press ");
         client d = new client();
         d.setnombre(fromField.getText());
-        d.setDNI(dniField.getHeight());
+        d.setDNI(dniField.getText());
         d.setnacionalidad(nacField.getText());
         d.setsex(sexField.getText());
         

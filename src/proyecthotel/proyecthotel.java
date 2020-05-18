@@ -39,7 +39,7 @@ public class proyecthotel {
                     System.out.println("ingrese el nombre:");
                     d.setnombre(imput.nextLine());
                     System.out.println("ingrese numero de DNI");
-                    d.setDNI(imput.nextInt());
+                    d.setDNI(imput.nextLine());
                     System.out.println(" ingrese nacionalidad");
                     d.setnacionalidad(imput.nextLine());
                     System.out.println("ingrese sex");
